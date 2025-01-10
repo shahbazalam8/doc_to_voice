@@ -1,5 +1,3 @@
-# doc_to_voice
-An Application that converts the document to voice
 # Text-to-Speech using AWS Lambda Function
 
 This AWS Lambda function reads a `.txt` or `.docx` file stored in an S3 bucket and uses Amazon Polly to convert the text into an audio file (MP3 format). The generated audio file is then uploaded back to the same S3 bucket.
